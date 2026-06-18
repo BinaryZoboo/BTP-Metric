@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=375">
+  <title>Maquette — Caméra</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #0F0F0F; color: #FAFAF8; font-family: 'Barlow', sans-serif; padding: 0; height: 100vh; display: flex; flex-direction: column; }
+    .viewfinder { flex: 1; background: #1a1a1a; display: flex; align-items: center; justify-content: center; position: relative; }
+    .marker-guide { width: 160px; height: 160px; border: 2px dashed #F4620F; border-radius: 8px; display: flex; align-items: center; justify-content: center; }
+    .marker-guide span { font-family: 'Barlow', sans-serif; font-size: 11px; color: #F4620F; text-align: center; padding: 8px; }
+    .controls { background: #0F0F0F; padding: 24px 32px; display: flex; gap: 16px; }
+    button { flex: 1; padding: 16px; border-radius: 12px; font-family: 'Barlow', sans-serif; font-weight: 600; font-size: 15px; border: none; cursor: pointer; }
+    .btn-primary { background: #F4620F; color: #FAFAF8; }
+    .btn-secondary { background: #2A2A2A; color: #B8B0A4; }
+  </style>
+</head>
+<body>
+  <div class="viewfinder">
+    <div class="marker-guide"><span>Placez le marqueur ArUco ici</span></div>
+  </div>
+  <div class="controls">
+    <button class="btn-secondary">Galerie</button>
+    <button class="btn-primary">Prendre la photo</button>
+  </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "BTP-Metric",
+    "slug": "btp-metric",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0F0F0F"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.btpmetric.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0F0F0F"
+      },
+      "package": "com.btpmetric.app"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "BTP-Metric a besoin d'accéder à votre caméra pour photographier les surfaces à mesurer."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "BTP-Metric a besoin d'accéder à votre galerie pour sélectionner des photos de chantier."
+        }
+      ]
+    ]
+  }
+}

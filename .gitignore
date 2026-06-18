@@ -1,0 +1,37 @@
+# Node / Expo
+node_modules/
+.expo/
+dist/
+web-build/
+*.jsbundle
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Environnement
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+*.apk
+*.ipa

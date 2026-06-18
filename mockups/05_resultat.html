@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=375">
+  <title>Maquette — Résultat</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #0F0F0F; color: #FAFAF8; font-family: 'Barlow', sans-serif; padding: 96px 32px 48px; }
+    h1 { font-family: 'Barlow Condensed', sans-serif; font-weight: 900; font-size: 48px; color: #F4620F; margin-bottom: 32px; }
+    .card { background: #2A2A2A; border-radius: 18px; padding: 24px; margin-bottom: 32px; }
+    .field { margin-bottom: 16px; }
+    .field label { font-size: 11px; color: #7A7A7A; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 4px; }
+    .field .val { font-family: 'Barlow', sans-serif; font-weight: 600; font-size: 18px; color: #FAFAF8; }
+    .field .val-large { font-family: 'Barlow Condensed', sans-serif; font-weight: 900; font-size: 64px; color: #2ECC71; line-height: 1; }
+    button { background: #F4620F; color: #FAFAF8; border: none; padding: 16px 32px; border-radius: 12px; font-family: 'Barlow', sans-serif; font-weight: 600; font-size: 16px; cursor: pointer; width: 100%; }
+  </style>
+</head>
+<body>
+  <h1>RÉSULTAT</h1>
+  <div class="card">
+    <div class="field"><label>Type de mesure</label><span class="val">SOL</span></div>
+    <div class="field"><label>Surface calculée</label><span class="val-large">12.4 m²</span></div>
+    <div class="field"><label>Échelle détectée</label><span class="val">0.0520 cm/px</span></div>
+    <div class="field"><label>ID marqueur ArUco</label><span class="val">#0</span></div>
+  </div>
+  <button>Nouvelle mesure</button>
+</body>
+</html>
